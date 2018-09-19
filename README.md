@@ -19,7 +19,7 @@ Register the cache provider in startup.cs
 
 (for example the MemoryCache from the nuget package Microsoft.Extensions.Caching.Memory)
 
-    services.AddTransient(typeof(IMemoryCache), typeof(MemoryCache));
+    services.AddMemoryCache();
 
 ## Basic usage:
 You can now inject the ICacheService into your code and use it for example:
