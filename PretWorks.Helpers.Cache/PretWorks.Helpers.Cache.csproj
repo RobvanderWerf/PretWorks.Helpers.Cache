@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7.1</LangVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rob van der Werf</Authors>
+    <Company>PretWorks</Company>
+    <PackageProjectUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache</RepositoryUrl>
+    <PackageTags>Cache Caching Helper NetCore NetStandard</PackageTags>
+    <PackageLicenseUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
