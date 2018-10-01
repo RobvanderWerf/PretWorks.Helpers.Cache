@@ -13,7 +13,7 @@ Getting the package:
 
 Register the cache helper in startup.cs
 
-    services.AddTransient(typeof(ICacheService), typeof(InMemoryCacheService));
+    services.AddTransient(typeof(ICachehelper), typeof(InMemoryCacheHelper));
     
 Register the cache provider in startup.cs
 
