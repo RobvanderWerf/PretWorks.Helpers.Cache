@@ -11,8 +11,9 @@
     <RepositoryUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache</RepositoryUrl>
     <PackageTags>Cache Caching Helper NetCore NetStandard</PackageTags>
     <PackageLicenseUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache/blob/master/LICENSE</PackageLicenseUrl>
-    <Version>1.0.1</Version>
-    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.2</Version>
+    <FileVersion>1.0.2.0</FileVersion>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
