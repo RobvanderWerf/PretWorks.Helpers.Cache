@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7.1</LangVersion>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Rob van der Werf</Authors>
     <Company>PretWorks</Company>
@@ -11,13 +11,13 @@
     <RepositoryUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache</RepositoryUrl>
     <PackageTags>Cache Caching Helper NetCore NetStandard</PackageTags>
     <PackageLicenseUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache/blob/master/LICENSE</PackageLicenseUrl>
-    <Version>3.0.0</Version>
-    <FileVersion>3.0.0.0</FileVersion>
-    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <Version>3.1.0</Version>
+    <FileVersion>3.1.0.0</FileVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.0" />
   </ItemGroup>
 
 </Project>
