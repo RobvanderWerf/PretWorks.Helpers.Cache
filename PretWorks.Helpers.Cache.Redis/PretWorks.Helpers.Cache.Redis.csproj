@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rob van der Werf</Authors>
+    <Company>PretWorks</Company>
+    <PackageProjectUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache</RepositoryUrl>
+    <PackageTags>Redis Cache Caching Helper NetCore NetStandard</PackageTags>
+    <PackageLicenseUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>3.1.6</Version>
+    <FileVersion>3.1.6.0</FileVersion>
+    <AssemblyVersion>3.1.6.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.1.58" />
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PretWorks.Helpers.Cache\PretWorks.Helpers.Cache.csproj" />
+  </ItemGroup>
+
+
+</Project>
