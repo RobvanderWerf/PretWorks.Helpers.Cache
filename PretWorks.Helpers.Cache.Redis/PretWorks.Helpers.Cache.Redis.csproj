@@ -11,14 +11,14 @@
     <RepositoryUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache</RepositoryUrl>
     <PackageTags>Redis Cache Caching Helper NetCore NetStandard</PackageTags>
     <PackageLicenseUrl>https://github.com/XGNPreTender/PretWorks.Helpers.Cache/blob/master/LICENSE</PackageLicenseUrl>
-    <Version>3.1.6</Version>
-    <FileVersion>3.1.6.0</FileVersion>
-    <AssemblyVersion>3.1.6.0</AssemblyVersion>
+    <Version>5.0.0</Version>
+    <FileVersion>5.0.0.0</FileVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="StackExchange.Redis" Version="2.1.58" />
-    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
+    <PackageReference Include="System.Text.Json" Version="5.0.1" />
   </ItemGroup>
 
   <ItemGroup>
